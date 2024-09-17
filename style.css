@@ -1,0 +1,39 @@
+.navbar-custom {
+    background-color: #0000FF;
+}
+
+.navbar-custom .navbar-brand
+.navbar-custom .nav-link {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #d0d0d0;
+}
+
+.gradient {
+    background: linear-gradient(blue, rgb(247, 50, 83));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.p-20 {
+    background-color: linear-gradient(blue, rgb(247, 50, 83));
+}
+.p-11 {
+    padding-left: 80rem;
+}
+
+.p-19 {
+    border-radius: 10pc;
+}
+
+.card {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: box-shadow 0.5s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
